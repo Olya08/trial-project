@@ -15,7 +15,8 @@ body {
 .list {
   list-style: none;
 }
-
+.container {
+}
 /* Logo */
 .logo {
   text-decoration: none;
