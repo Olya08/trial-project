@@ -9,21 +9,41 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  font-family: Gilroy;
+  font-style: normal;
 }
 .list {
   list-style: none;
 }
 
 /* Logo */
+.logo {
+  text-decoration: none;
+  font-family: Homemade Apple;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2.16;
+  text-align: center;
+}
 .logo.top {
   color: var(--secondary-text-color);
-  text-decoration: none;
 }
 
 /* Header */
+
+.navigation-item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
 .navigation .link {
   text-decoration: none;
   color: var(--tertiary-background-color);
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero,
@@ -31,12 +51,43 @@ body {
   background-color: var(--secondary-background-color);
 }
 /* Hero */
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.23;
+}
+.hero-text,
+.work-style .text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140.62%;
+}
 .hero .link {
   background-color: var(--tertiary-background-color);
   color: var(--primary-background-color);
   text-decoration: none;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 /* How we work */
+
+.work-style > .title {
+  font-size: 32px;
+  line-height: 140.62%;
+}
+
+.link-btn {
+  color: var(--tertiary-background-color);
+  font-size: 18px;
+  line-height: 134.77%;
+  /text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .work-style .link {
   color: var(--tertiary-background-color);
   text-decoration: none;
@@ -50,38 +101,115 @@ body {
   font-size: 14px;
   line-height: 1.35;
 }
+.gift-samples > .title,
+.benefits .title {
+  font-size: 32px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.gift-samples .text,
+.benefits .text {
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+}
+.gift-sample > .subtitle {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.gift-sample .link {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
 .link-primary {
   background-color: var(--secondary-text-color);
   color: var(--primary-background-color);
   text-decoration: none;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
 }
+
 /* Lets start */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.getting-started .get-started,
+.getting-started .text {
+  font-size: 32px;
+  line-height: 140.62%;
+}
+
 .getting-started {
   background-color: var(--tertiary-background-color);
 }
 .link-secondary {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-size: 18px;
+  line-height: 134.77%;
+  text-align: center;
+  text-transform: uppercase;
 }
 /* Blogs */
 .card {
   background-color: var(--secondary-text-color);
   color: var(--primary-background-color);
 }
+.card .name {
+  font-size: 14px;
+  line-height: 140.62%;
+}
+.card .title {
+  font-size: 48px;
+  line-height: 58px;
+}
 .card .link {
   text-decoration: none;
   color: var(--primary-background-color);
+  font-size: 18px;
+  line-height: 140.62%;
 }
+
+.excerpts .subtitle {
+  font-size: 24px;
+  line-height: 140.62%;
+}
+.excerpts .text {
+  font-size: 18px;
+  line-height: 140.62%;
+}
+
 .excerpts .link {
   text-decoration: none;
   color: inherit;
+  font-size: 14px;
+  line-height: 140.62%;
 }
 /* Footer */
+.navigation-items .navigation-item {
+  font-size: 14px;
+  line-height: 140.62%;
+}
+
 .logo.bottom {
   color: var(--tertiary-background-color);
-  text-decoration: none;
 }
 .copyright .link {
   color: inherit;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 140.62%;
 }
